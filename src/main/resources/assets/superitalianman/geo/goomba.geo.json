@@ -1,0 +1,53 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.goomba",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "feet",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "right_foot",
+					"parent": "feet",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 0, 2], "size": [10, 2, 5], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [18, 41]}
+					]
+				},
+				{
+					"name": "left_foot",
+					"parent": "feet",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 0, -7], "size": [10, 2, 5], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [18, 41]}
+					]
+				},
+				{
+					"name": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 1, -4], "size": [6, 4, 8], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [0, 29]}
+					]
+				},
+				{
+					"name": "head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6.5, 14.2, -3.4], "size": [13, 2, 9], "uv": [0, 0]},
+						{"origin": [-4, 4, -7], "size": [10, 11, 14], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [0, 0]},
+						{"origin": [-3, 11, -5.5], "size": [8, 6, 11], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [10, 17]}
+					]
+				}
+			]
+		}
+	]
+}
